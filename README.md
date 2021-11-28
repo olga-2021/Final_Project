@@ -6,6 +6,8 @@
    - How all of these variables are correlated to suffering a stroke?
    - Which variable in our analysis has the most influence on having a stroke?
    - source of stroke information: https://www.cdc.gov/stroke/facts.htm
+ - Data exploration stuff here:
+ - Analysis phase explanation here:
 
 ## Communication Plan
  - To accomplish our task, the most important requirement is communication between our team members. We communicate using slack, creating zoom chats weekly to go over where we are and what needs to be done, and working together during class time to delineate responsibilities that each person can then go and accomplish on their own. 
@@ -16,9 +18,18 @@
  - DBHub I/O: https://dbhub.io/wprich/Final.db
  - After reviewing the raw stroke dataset with another dataset found on kaggle relating to heart disease, it was decided that a join could be used to expand our dataset.  This was done in the hopes of either adding more variables and specifying more causes to heart disease/stroke in general or just adding more data to our dataset to ensure better testing of our statistical models.  Doing a "LEFT OUTER JOIN" on the two tables on various columns, it was decided that the heart data set could not be used and we would stick with the original plan of using the raw stroke dataset after cleaning the data up.
  - After cleaning up the raw stroke data into a new data set aptly named clean stroke data, it was then added to the database as another table.  This was done for comparisons among the two and to also keep a record for any/all discrepancies that may arise.  A ERD, or Entity Relationship Diagram, was then created out of those two data sets.  This was done to see which columns were still there and to also ensure that nothing was accidentally dropped/deleted.  The ERD shows a clear 1 to 1 comparison in the two datasets and also that the only column dropped was the one intended, namely the "id" column. 
+ - A screenshot of our database can be seen below:
+<img width="1264" alt="Screen Shot 2021-11-28 at 5 42 04 PM" src="https://user-images.githubusercontent.com/86524863/143789198-c10a45c1-e65d-4fc5-ade4-7772921c60cd.png">
 
 ## Machine Learning Model
  - We will use Machine Learning on our data to answer our desired questions about strokes. Both the Support Vector Machine (SVM) and Logistical Regression models that we will use offer high accuracy with minimal computing power needed. To use our models we will first take in data from our database and Extract Transform and Load (ETL) our data, standardize that data, seperate the dataset into X(features) and y(target), split the dataset into training and test sets, import our SVC module from Scikit-Learn to train our model, then create our predictions with the model, and finally assess accuracy score. 
+ - A screenshot of our imported dataframe, and also a visualization of the correlation between certain variables and strokes can be seen below: 
+<img width="940" alt="Screen Shot 2021-11-28 at 5 44 22 PM" src="https://user-images.githubusercontent.com/86524863/143789277-31130bf7-690c-4b91-96db-421512a80ed2.png">
+
+<img width="834" alt="Screen Shot 2021-11-28 at 5 48 38 PM" src="https://user-images.githubusercontent.com/86524863/143789456-09d20cdf-c2c2-4feb-8c1a-6611d8cd0176.png">
+
+## Presentation
+ - We will be using the powerful Tableau software to visualize our data in order to present it. We will create a storyboard of different graphs and visualizations in order to answer our initial questions regarding our data. This will provide a great way for others to understand what our analysis has accomplished in a presentation setting.
 
 ## Summary
  - Our group will work together to answer questions about a topic that is the fifth leading cause of death in the US: Strokes. Whether its for your own health or you know a loved one that's been affected, stroke science is imperative to know. Being able to predict a stroke based on different variables will give everyone an advantage in being able to prevent them as best we can. 
