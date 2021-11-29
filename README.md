@@ -6,8 +6,20 @@
    - How all of these variables are correlated to suffering a stroke?
    - Which variable in our analysis has the most influence on having a stroke?
    - source of stroke information: https://www.cdc.gov/stroke/facts.htm
- - Data exploration stuff here:
- - Analysis phase explanation here:
+ - After getting our data, we performed some preliminary data exploration on it to describe its characteristics including size, quantity, and accuracy of the data. We went from 5110 rows of data to 5109 due to dropping one row that had an unknown gender. We also didn't want NaN values in our BMI column, so we replaced the NaN values with the median so as to not drop a large percentage of our rows. This can be seen in the steps below:
+<img width="937" alt="Screen Shot 2021-11-28 at 8 32 02 PM" src="https://user-images.githubusercontent.com/86524863/143795570-82bd641a-175c-4e78-86a5-7deef3b56ab1.png">
+ 
+ - We also counted our unique rows in gender and did some analysis on the types of data we had as seen below:
+<img width="437" alt="Screen Shot 2021-11-28 at 8 33 49 PM" src="https://user-images.githubusercontent.com/86524863/143795675-f82faec5-a3ef-4a5a-ad25-3fc5eb3bc1c0.png">
+
+ - To further analyze our data we performed some visualizations, starting off with a distribution of predicted values as seen below:
+<img width="992" alt="Screen Shot 2021-11-28 at 8 38 02 PM" src="https://user-images.githubusercontent.com/86524863/143795895-f1ddb56a-6024-4bc3-87cd-3db75047fdaa.png">
+
+ - Next we included a visualization of the correlation between certain variables and strokes as seen below:
+<img width="1067" alt="Screen Shot 2021-11-28 at 8 40 12 PM" src="https://user-images.githubusercontent.com/86524863/143796059-0ef93f82-3106-4c57-83b6-8f5165fe3837.png">
+
+ - Finally we performed visualizations using a multitude of variables to see how the variables predicted having a stroke vs not:
+ <img width="760" alt="Screen Shot 2021-11-28 at 8 41 38 PM" src="https://user-images.githubusercontent.com/86524863/143796269-8ceee92d-e437-495a-834a-4bb886621403.png">
 
 ## Communication Plan
  - To accomplish our task, the most important requirement is communication between our team members. We communicate using slack, creating zoom chats weekly to go over where we are and what needs to be done, and working together during class time to delineate responsibilities that each person can then go and accomplish on their own. 
@@ -22,11 +34,11 @@
 <img width="1264" alt="Screen Shot 2021-11-28 at 5 42 04 PM" src="https://user-images.githubusercontent.com/86524863/143789198-c10a45c1-e65d-4fc5-ade4-7772921c60cd.png">
 
 ## Machine Learning Model
- - We will use Machine Learning on our data to answer our desired questions about strokes. Both the Support Vector Machine (SVM) and Logistical Regression models that we will use offer high accuracy with minimal computing power needed. To use our models we will first take in data from our database and Extract Transform and Load (ETL) our data, standardize that data, seperate the dataset into X(features) and y(target), split the dataset into training and test sets, import our SVC module from Scikit-Learn to train our model, then create our predictions with the model, and finally assess accuracy score. 
- - A screenshot of our imported dataframe, and also a visualization of the correlation between certain variables and strokes can be seen below: 
+ - We will use Machine Learning on our data to answer our desired questions about strokes. Both the Support Vector Machine (SVM) and Logistical Regression models that we will use offer high accuracy with minimal computing power needed. The limitations of the SVM model are that it doesn't handle large datasets very well, and the major limitation of a Logistical Regression model is that it assumes the linearity between the independent and dependent variable; keeping these in mind we turned to our analysis. To use our models we will first take in data from our database and Extract Transform and Load (ETL) our data, standardize that data, seperate the dataset into X(features) and y(target), split the dataset into training and test sets, import our SVC module from Scikit-Learn to train our model, then create our predictions with the model, and finally assess accuracy score. 
+ - A screenshot of our imported dataframe can be seen below: 
 <img width="940" alt="Screen Shot 2021-11-28 at 5 44 22 PM" src="https://user-images.githubusercontent.com/86524863/143789277-31130bf7-690c-4b91-96db-421512a80ed2.png">
 
-<img width="834" alt="Screen Shot 2021-11-28 at 5 48 38 PM" src="https://user-images.githubusercontent.com/86524863/143789456-09d20cdf-c2c2-4feb-8c1a-6611d8cd0176.png">
+ - We tried 5 different models- the best performing ones were SVM and Logistical Regression with a precision score of 16%, the worst performing one was the Decision Tree Classifier with a precision score of only 8%. 
 
 ## Presentation
  - We will be using the powerful Tableau software to visualize our data in order to present it. We will create a storyboard of different graphs and visualizations in order to answer our initial questions regarding our data. This will provide a great way for others to understand what our analysis has accomplished in a presentation setting.
