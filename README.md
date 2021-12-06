@@ -3,7 +3,7 @@
 ## Topic
  - The topic we chose for our capstone project was predicting strokes. Every year more than 795,000 people in the United States has a stroke, and in 2018, 1 out of every 6 deaths from cardiovascular disease was due to stroke. This is an issue that we felt was important to explore and see what factors contribute the most to having a stroke. Some of the questions we want to answer in this analysis are:
    - How likely someone is to suffer a stroke based on gender, age, hypertension, heart disease, bmi, smoking status, average glucose level, if they were ever married, what type of work they do, and where they reside- rural or urban?
-   - How all of these variables are correlated to suffering a stroke?
+   - What age bracket should be the most concerned with the risk of having a stroke?
    - Which variable in our analysis has the most influence on having a stroke?
    - source of stroke information: https://www.cdc.gov/stroke/facts.htm
  - After getting our data, we performed some preliminary data exploration on it to describe its characteristics including size, quantity, and accuracy of the data. We went from 5110 rows of data to 5109 due to dropping one row that had an unknown gender. We also didn't want NaN values in our BMI column, so we replaced the NaN values with the median so as to not drop a large percentage of our rows. This can be seen in the steps below:
@@ -35,7 +35,7 @@
  - A screenshot of our imported dataframe can be seen below: 
 <img width="940" alt="Screen Shot 2021-11-28 at 5 44 22 PM" src="https://user-images.githubusercontent.com/86524863/143789277-31130bf7-690c-4b91-96db-421512a80ed2.png">
 
- - We tried 5 different models- the best performing ones were SVM and Logistical Regression with a precision score of 16%, the worst performing one was the Decision Tree Classifier with a precision score of only 8%. 
+ - We tried 5 different models- the best performing ones were SVM and Logistical Regression with an accuracy of 74% and a recall score of 79%, the worst performing one was the Random Forest Classifier with an accuracy of 91% but a recall score of only 13%.  
 
 ## Presentation
  - We will be using the powerful Tableau software to visualize our data in order to present it. We will create a storyboard of different graphs and visualizations in order to answer our initial questions regarding our data. This will provide a great way for others to understand what our analysis has accomplished in a presentation setting.
