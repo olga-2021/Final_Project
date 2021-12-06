@@ -41,6 +41,6 @@
  - We will be using the powerful Tableau software to visualize our data in order to present it. We will create a storyboard of different graphs and visualizations in order to answer our initial questions regarding our data. This will provide a great way for others to understand what our analysis has accomplished in a presentation setting.
  - Link to interactive Tableau Storyboard: https://public.tableau.com/app/profile/bryan.werth/viz/StrokeStory/Story1?publish=yes
 
-## Summary
+## Summary.
  - Our group will work together to answer questions about a topic that is the fifth leading cause of death in the US: Strokes. Whether its for your own health or you know a loved one that's been affected, stroke science is imperative to know. Being able to predict a stroke based on different variables will give everyone an advantage in being able to prevent them as best we can. 
 > "Knowledge itself is power" - Sir Francis Bacon
