@@ -21,9 +21,6 @@
  - Finally we performed visualizations using a multitude of variables to see how the variables predicted having a stroke vs not:
  <img width="760" alt="Screen Shot 2021-11-28 at 8 41 38 PM" src="https://user-images.githubusercontent.com/86524863/143796269-8ceee92d-e437-495a-834a-4bb886621403.png">
 
-## Communication Plan
- - To accomplish our task, the most important requirement is communication between our team members. We communicate using slack, creating zoom chats weekly to go over where we are and what needs to be done, and working together during class time to delineate responsibilities that each person can then go and accomplish on their own. 
-
 ## Database
  - We have to be able to store and share our data that we will use collectively in a public database that everyone has access to. We have taken our dataset from Kaggle in CSV format, imported that data as a table in a SQLite Database, then upload it to DBHub.io and make it public with all of our team members. This allows every team member to download that database to use in our analysis and machine learning modeling. 
  - Data source: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
@@ -42,7 +39,7 @@
 
 ## Presentation
  - We will be using the powerful Tableau software to visualize our data in order to present it. We will create a storyboard of different graphs and visualizations in order to answer our initial questions regarding our data. This will provide a great way for others to understand what our analysis has accomplished in a presentation setting.
- - Link to interactive Tableau Storyboard: https://public.tableau.com/app/profile/bryan.werth/viz/StrokeStory/Story1
+ - Link to interactive Tableau Storyboard: https://public.tableau.com/app/profile/bryan.werth/viz/StrokeStory/Story1?publish=yes
 
 ## Summary
  - Our group will work together to answer questions about a topic that is the fifth leading cause of death in the US: Strokes. Whether its for your own health or you know a loved one that's been affected, stroke science is imperative to know. Being able to predict a stroke based on different variables will give everyone an advantage in being able to prevent them as best we can. 
