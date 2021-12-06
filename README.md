@@ -30,7 +30,7 @@
  - A screenshot of our database can be seen below:
 <img width="1264" alt="Screen Shot 2021-11-28 at 5 42 04 PM" src="https://user-images.githubusercontent.com/86524863/143789198-c10a45c1-e65d-4fc5-ade4-7772921c60cd.png">
 
-## Machine Learning Model
+## Machine Learning Model.
  - We will use Machine Learning on our data to answer our desired questions about strokes. Both the Support Vector Machine (SVM) and Logistical Regression models that we will use offer high accuracy with minimal computing power needed. The limitations of the SVM model are that it doesn't handle large datasets very well, and the major limitation of a Logistical Regression model is that it assumes the linearity between the independent and dependent variable; keeping these in mind we turned to our analysis. To use our models we will first take in data from our database and Extract Transform and Load (ETL) our data, standardize that data, seperate the dataset into X(features) and y(target), split the dataset into training and test sets, import our SVC module from Scikit-Learn to train our model, then create our predictions with the model, and finally assess accuracy score. 
  - A screenshot of our imported dataframe can be seen below: 
 <img width="940" alt="Screen Shot 2021-11-28 at 5 44 22 PM" src="https://user-images.githubusercontent.com/86524863/143789277-31130bf7-690c-4b91-96db-421512a80ed2.png">
