@@ -37,7 +37,7 @@
 
  - We tried 5 different models- the best performing ones were SVM and Logistical Regression with an accuracy of 74% and a recall score of 79%, the worst performing one was the Random Forest Classifier with an accuracy of 91% but a recall score of only 13%.  
 
-## Presentation- Roland Ikponmwosa
+## Presentation- Rolland Ikponmwosa 
  - We will be using Powerpoint to present our project to classmates, and have provided a PDF in our GitHub.
  - We will be using the powerful Tableau software to visualize our data in order to present it. We will create a storyboard of different graphs and visualizations in order to answer our initial questions regarding our data. This will provide a great way for others to understand what our analysis has accomplished in a presentation setting.
  - Link to interactive Tableau Storyboard: https://public.tableau.com/app/profile/bryan.werth/viz/StrokeStory/Story1?publish=yes
